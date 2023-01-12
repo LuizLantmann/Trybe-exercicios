@@ -6,4 +6,3 @@ mongodb
 mysql
 react
 python
-
