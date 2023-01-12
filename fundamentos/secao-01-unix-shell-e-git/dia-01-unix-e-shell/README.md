@@ -1,0 +1,1 @@
+aprendemos como utilizar o terminal unix, seus comandos iniciais e navegação entre diretorios
