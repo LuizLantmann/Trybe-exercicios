@@ -1,9 +1,0 @@
-Internet
-Unix
-Bash
-Comandos
-Linux
-JavaScrip
-ReactJS
-Node
-
