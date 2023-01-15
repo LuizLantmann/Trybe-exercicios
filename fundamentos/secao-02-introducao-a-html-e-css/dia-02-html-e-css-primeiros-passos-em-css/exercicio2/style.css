@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTML</title>
-    <style>
 
       h1 {font-family:sans-serif; text-align: center;}
      
@@ -22,16 +16,3 @@
       #brown{
         background-color: brown;
       }
-
-    </style>
-  </head>
-  <body>
-    <h1>Cores</h1>
-    <p>Qual é a sua cor favorita?</p>
-    <ul>
-      <li id="yellow">Amarelo</li>
-      <li id="red">Vermelho</li>
-      <li id="brown">Marrom</li>
-    </ul>
-  </body>
-</html>
