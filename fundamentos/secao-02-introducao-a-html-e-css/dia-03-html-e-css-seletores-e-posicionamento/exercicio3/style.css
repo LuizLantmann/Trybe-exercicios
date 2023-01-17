@@ -1,0 +1,11 @@
+h1, p, ul, li{
+  text-align: center;
+}
+
+a:hover{
+  background-color: blueviolet; color: white;
+}
+
+a:active{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
