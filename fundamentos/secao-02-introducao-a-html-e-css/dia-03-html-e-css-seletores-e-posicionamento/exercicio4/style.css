@@ -1,0 +1,28 @@
+div:hover{
+  border: solid black;
+}
+
+h3{
+  font-style: italic;
+}
+
+.corPrimaria{
+  color: blue;
+}
+
+.corSecundaria{
+  color: purple;
+}
+
+.corComplementar{
+  color: red;
+  font-size: large;
+}
+
+.Escura{
+  color: black;
+}
+
+.Clara{
+  color: green;
+}
