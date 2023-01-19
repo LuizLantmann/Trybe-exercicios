@@ -1,0 +1,30 @@
+ol {
+  background-color: yellow;
+}
+.impar {
+  text-transform:uppercase;
+}
+.par{
+  color:green;
+}
+
+h1, h2, h3{
+  color: red;
+}
+h1 em{
+  size: 40px;
+  border: solid 1px black;
+}
+
+#linguagens li:not(:nth-child(n + 4)){
+  color: blue;
+}
+
+.Java{
+  background-color: pink;
+}
+
+.links li:hover{
+  background-color: cyan;
+}
+
