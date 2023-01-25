@@ -1,6 +1,6 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let soma = 0;
-let n3 = 0;
+let n3 = numbers[0];
 
 //Some todos os valores contidos no array e imprima o resultado;
 
@@ -22,7 +22,7 @@ if (n2 > 20) {
   console.log("valor menor ou igual a 20");
 }
 // Utilizando for, descubra qual o maior valor contido no array e imprima-o;
-for (index = 0; index < numbers.length; index++) {
+for (index = 1; index < numbers.length; index++) {
   if (numbers[index] > n3) {
     n3 = numbers[index];
   }
