@@ -17,12 +17,20 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // ser 45, pois é a multiplicação de 5 (primeiro valor) e 9 (valor seguinte). Já o segundo valor do novo array deverá ser 27,
 // pois é a multiplicação de 9 (segundo valor) e 3 (valor seguinte), e assim por diante. Caso não haja próximo valor,
 // a multiplicação deverá ser feita por 2. Faça isso utilizando o for e o método push. O resultado deve ser o array abaixo:
-let arrayNovo = [];
-for (let index = 0; index < numbers.length; index += 1) {
-  if (index + 1 < numbers.length) {
-    arrayNovo.push(numbers[index] * numbers[index + 1]);
-  } else {
-    arrayNovo.push(numbers[index] * 2);
-  }
+// let arrayNovo = [];
+// for (let index = 0; index < numbers.length; index += 1) {
+//   if (index + 1 < numbers.length) {
+//     arrayNovo.push(numbers[index] * numbers[index + 1]);
+//   } else {
+//     arrayNovo.push(numbers[index] * 2);
+//   }
+// }
+// console.log(arrayNovo);
+
+const n = 9;
+
+let resultado = 100;
+for (let index = 0; index <= n; index += 1) {
+  resultado -= index;
 }
-console.log(arrayNovo);
+console.log(resultado);
