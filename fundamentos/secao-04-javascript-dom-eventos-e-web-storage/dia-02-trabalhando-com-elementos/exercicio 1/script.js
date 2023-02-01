@@ -8,4 +8,10 @@ firstSonOfASon.innerText = "Olá MUNDO!";
 
 const firstSon = father.firstChild;
 
-const aa = whereIam.previousElementSibling;
+const firstSon1 = whereIam.previousElementSibling;
+
+const atentionText = whereIam.nextSibling;
+
+const thirdSon = whereIam.nextElementSibling;
+
+const thirdSon1 = father.lastElementChild.previousElementSibling;
