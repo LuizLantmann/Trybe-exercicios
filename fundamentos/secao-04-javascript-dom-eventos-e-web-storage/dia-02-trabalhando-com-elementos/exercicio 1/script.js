@@ -15,3 +15,13 @@ const atentionText = whereIam.nextSibling;
 const thirdSon = whereIam.nextElementSibling;
 
 const thirdSon1 = father.lastElementChild.previousElementSibling;
+
+// Crie um irmão para elementoOndeVoceEsta.
+const createBrother = document.createElement("section");
+createBrother.id = "newBrother";
+father.appendChild(createBrother);
+
+//crie um filho para whereIam
+const createSon = document.createElement("section");
+createSon.id = "newSon";
+whereIam.appendChild(createSon);
