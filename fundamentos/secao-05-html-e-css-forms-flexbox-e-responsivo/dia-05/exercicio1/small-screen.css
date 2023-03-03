@@ -1,0 +1,60 @@
+ html {
+   box-sizing: border-box;
+ }
+
+ *,
+ *:before,
+ *:after {
+   box-sizing: inherit;
+ }
+
+ body {
+   font-size: 1em;
+   margin: 0 3%;
+ }
+
+ article {}
+
+ h1 {
+   font-size: 0.5em;
+ }
+
+ h2 {}
+
+ img {
+   max-width: 100%;
+ }
+
+ main {}
+
+ section {}
+
+ figure {
+   margin: 20px;
+ }
+
+ figcaption {
+   font-size: .8em;
+ }
+
+ @media (min-width: 768px) {
+   body {
+     background-color: orange;
+     font-size: 1em;
+     margin: 0 1%;
+   }
+
+   section {
+     display: flex;
+     flex-wrap: wrap;
+     width: 80%;
+   }
+ }
+
+ @media (min-width: 992px) {
+   body {
+     background-color: grey;
+     font-size: 20px;
+     margin: 30px;
+   }
+ }
